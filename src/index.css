@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+*{
+    color : whitesmoke
+}
+
+body{
+    background-color: #111;
+}
+
+
+#tasklist::-webkit-scrollbar {
+ display: none;
+}
+
+button:hover {
+   cursor :  pointer;
+  transform: scale(1.08);
+}
